@@ -266,6 +266,14 @@ button.primary:disabled {
     cursor: pointer;
 }
 
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding-top: 32px;
+    font-size: 13px;
+    color: rgba(242, 236, 217, 0.4);
+}
+
 @media (prefers-reduced-motion: reduce) {
     * {
         transition: none !important;

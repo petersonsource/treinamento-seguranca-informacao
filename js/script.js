@@ -236,3 +236,6 @@ function renderThanks() {
 
 // Inicia a aplicação
 renderIntro();
+
+// Atualiza ano do rodapé
+document.getElementById('currentYear').textContent = new Date().getFullYear();
