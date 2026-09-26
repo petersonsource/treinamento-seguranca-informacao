@@ -1,7 +1,8 @@
 /* ============================================================
-   CONTEÚDO — edite os textos, perguntas e alternativas aqui.
+   Edite, textos, perguntas e quiz aqui.
 ============================================================ */
-/* Link do Google Forms da pesquisa — troque pela URL real quando criar o formulário */
+
+/* Link para pesquisa do Google Forms */
 const SURVEY_URL = "https://forms.google.com/";
 
 const modules = [
@@ -186,7 +187,7 @@ function renderQuiz(i) {
 }
 
 function renderFinal() {
-  setBackground(modules.length); // continues rotation
+  setBackground(modules.length); // continua a rotação
   badgebar.innerHTML = modules.map(() => `<div class="badge done">✓</div>`).join('');
   
   const nota = (totalCorrect / totalQuestions) * 10;
