@@ -3,7 +3,7 @@
 ============================================================ */
 
 /* Link para pesquisa do Google Forms */
-const SURVEY_URL = "https://forms.google.com/";
+const SURVEY_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfrw3wEeKZ9_wSW4jIFNtWXXzt0rB7NOyJSuPRaA3u-ls-q3g/viewform?usp=dialog";
 
 const modules = [
   {
